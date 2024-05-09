@@ -37,8 +37,8 @@ DEALINGS IN THE SOFTWARE.
   <property name="commons-fileupload-version" value="2.0.0-M2" />
   <property name="commons-io-version" value="2.15.1" />
   <property name="commons-logging-version" value="1.2" />
-  <property name="httpclient-version" value="4.5.13" />
-  <property name="httpcore-version" value="4.4.14" />
+  <property name="httpclient-version" value="5.3.1" />
+  <property name="httpcore-version" value="5.2.4" />
   <property name="icu4j-version" value="70.1" />
   <property name="jakarta.servlet-api-version" value="5.0.2" />
   <property name="jchardet-version" value="1.0" />
@@ -76,8 +76,9 @@ DEALINGS IN THE SOFTWARE.
       <zipfileset src="../dependencies/commons-logging-${commons-logging-version}.jar"/>
       <zipfileset src="../dependencies/commons-logging-${commons-logging-version}-adapters.jar"/>
       <zipfileset src="../dependencies/commons-logging-${commons-logging-version}-api.jar"/>
-      <zipfileset src="../dependencies/httpclient-${httpclient-version}.jar"/>
-      <zipfileset src="../dependencies/httpcore-${httpcore-version}.jar"/>
+      <zipfileset src="../dependencies/httpclient5-${httpclient-version}.jar"/>
+      <zipfileset src="../dependencies/httpcore5-${httpcore-version}.jar"/>
+      <zipfileset src="../dependencies/httpcore5-h2-${httpcore-version}.jar"/>
       <zipfileset src="../dependencies/icu4j-${icu4j-version}.jar"/>
       <zipfileset src="../dependencies/jetty-jakarta-servlet-api-${jakarta.servlet-api-version}.jar"/>
       <zipfileset src="../dependencies/jchardet-${jchardet-version}.jar"/>
@@ -205,8 +206,9 @@ DEALINGS IN THE SOFTWARE.
       <fileset file="../dependencies/commons-logging-${commons-logging-version}.jar"/>
       <fileset file="../dependencies/commons-logging-${commons-logging-version}-adapters.jar"/>
       <fileset file="../dependencies/commons-logging-${commons-logging-version}-api.jar"/>
-      <fileset file="../dependencies/httpclient-${httpclient-version}.jar"/>
-      <fileset file="../dependencies/httpcore-${httpcore-version}.jar"/>
+      <fileset file="../dependencies/httpclient5-${httpclient-version}.jar"/>
+      <fileset file="../dependencies/httpcore5-${httpcore-version}.jar"/>
+      <fileset file="../dependencies/httpcore5-h2-${httpcore-version}.jar"/>
       <fileset file="../dependencies/icu4j-${icu4j-version}.jar"/>
       <fileset file="../dependencies/salvation-${salvation-version}.jar"/>
       <fileset file="../dependencies/jchardet-${jchardet-version}.jar"/>
@@ -302,8 +304,9 @@ DEALINGS IN THE SOFTWARE.
       <dependency groupId="nu.validator" artifactId="htmlparser" version="1.4.16"/>
       <dependency groupId="nu.validator" artifactId="cssvalidator" version="1.0.8"/>
       <dependency groupId="nu.validator" artifactId="jing" version="20200702VNU"/>
-      <dependency groupId="org.apache.httpcomponents" artifactId="httpclient" version="${httpclient-version}"/>
-      <dependency groupId="org.apache.httpcomponents" artifactId="httpcore" version="${httpcore-version}"/>
+      <dependency groupId="org.apache.httpcomponents.core5" artifactId="httpcore5" version="${httpclient-version}"/>
+      <dependency groupId="org.apache.httpcomponents.core5" artifactId="httpcore5-h2" version="${httpclient-version}"/>
+      <dependency groupId="org.apache.httpcomponents.client5" artifactId="httpclient5" version="${httpcore-version}"/>
       <dependency groupId="org.eclipse.jetty" artifactId="jetty-http" version="${jetty-version}"/>
       <dependency groupId="org.eclipse.jetty" artifactId="jetty-io" version="${jetty-version}"/>
       <dependency groupId="org.eclipse.jetty" artifactId="jetty-security" version="${jetty-version}"/>

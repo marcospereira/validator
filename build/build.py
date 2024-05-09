@@ -165,8 +165,9 @@ dependencyPackages = [
     ("https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-jakarta-servlet-api/5.0.2/jetty-jakarta-servlet-api-5.0.2.jar", "7de826f76a829dc9dfb41e437ff4bd01"),  # nopep8
     ("https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar", "04a41f0a068986f0f73485cf507c0f40"),  # nopep8
     ("https://repo1.maven.org/maven2/net/sourceforge/jchardet/jchardet/1.0/jchardet-1.0.jar", "90c63f0e53e6f714dbc7641e066620e4"),  # nopep8
-    ("https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar", "40d6b9075fbd28fa10292a45a0db9457"),  # nopep8
-    ("https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar", "2b3991eda121042765a5ee299556c200"),  # nopep8
+    ("https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar", "5a3d417ea4e65e0f74194263dc5c6c43"),  # nopep8
+    ("https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar", "d407b8144029db656ac5ba3d54ef801f"),  # nopep8
+    ("https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar", "de1810a606b27192cbf5bbad9c25a648"),  # nopep8
     ("https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/11.0.20/jetty-http-11.0.20.jar", "fbbf12c985f7e9f5387c52b700057129"),  # nopep8
     ("https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/11.0.20/jetty-io-11.0.20.jar", "69edc0f6fb44ad9cd341f15d086859d7"),  # nopep8
     ("https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/11.0.20/jetty-security-11.0.20.jar", "65160e47126973ac352857430c0f0eb3"),  # nopep8
